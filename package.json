@@ -1,0 +1,19 @@
+{
+  "name": "budget",
+  "version": "1.0.0",
+  "description": "Trying to create an API to help facilitate budgetting stuff",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Ethan T. Latimer",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
